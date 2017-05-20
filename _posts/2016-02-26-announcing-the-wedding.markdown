@@ -5,4 +5,4 @@ description:
 image: /images/paige-don-dancing.jpg
 ---
 
-Thanks for visiting. As the wedding approaches, this website will be an always up-to-date place to check on details, registries, etc.
+This website will be an always up-to-date place to check on details, registries, etc. It's all on one page, so just keep scrolling.
