@@ -3,6 +3,7 @@ layout: post
 # title: "Announcing the Wedding of Paige Salter and Don Denton"
 description:
 image: https://static.wixstatic.com/media/ca653f_066855087a994d8187a2744a5892c697.jpg
+order: 2
 ---
 
 Our wedding and reception will take place at [The Church On Main](https://www.weddingvenue-tn.com/) in beautiful downtown Chattanooga, Tennessee.

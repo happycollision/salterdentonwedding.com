@@ -3,6 +3,7 @@ layout: post
 # title: "Announcing the Wedding of Paige Salter and Don Denton"
 description:
 image: http://choochoo.com/application/files/1514/5218/1073/Engine-13.jpg
+order: 3
 ---
 
 Guests are welcome to stay anywhere, however we have reserved a block of 20 rooms at both [The Staybridge Suites (Chattanooga Downtown Convention Center)](https://www.ihg.com/staybridge/hotels/us/en/chattanooga/chacs/hoteldetail) and at the [Chattanooga Choo Choo Hotel](http://www.choochoo.com).
