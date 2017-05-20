@@ -88,7 +88,7 @@
   }
 
   &:hover {
-    background-color: $color-alpha--light;
+    // background-color: $color-alpha--light;
 
     .preview__more {
       box-shadow: inset 175px 0 0 0 $color-alpha;
@@ -103,10 +103,10 @@
 
   &__link {
     display: block;
-    padding: 2em 1em;
+    padding: 4em 1em;
 
     @media (min-width: $mq-md) {
-      padding: 2em 4em;
+      padding: 4em 4em;
     }
 
     @media (min-width: $mq-xxl) {
@@ -388,15 +388,11 @@
  * Post
  */
 .post {
-  width: 90%;
+  width: 100%;
   max-width: $mq-md;
   margin: 0 auto;
 
   font-family: $font-post;
-
-  @media (min-width: $mq-md) {
-    width: 55%;
-  }
 
   & > *:last-child {
     margin-bottom: 0;
