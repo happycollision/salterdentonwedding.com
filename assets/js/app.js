@@ -1,3 +1,4 @@
+var hasTouch = (!!("ontouchstart" in document.documentElement));
 var Tabs = (function() {
   var s;
 
@@ -61,7 +62,7 @@ var Preview = (function() {
     init: function() {
       s = this.settings;
       this.display();
-      this.mouseenter();
+      if (!hasTouch) this.mouseenter();
     },
 
     display: function() {
