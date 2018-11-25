@@ -1,30 +1,94 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    <title>Paige Salter &amp; Don Denton</title>
+    <description></description>
+    <link>/salterdentonwedding.com/</link>
+    <atom:link href="/salterdentonwedding.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 25 Nov 2018 17:47:53 -0600</pubDate>
+    <lastBuildDate>Sun, 25 Nov 2018 17:47:53 -0600</lastBuildDate>
+    <generator>Jekyll v3.6.0</generator>
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-        {% for tag in post.tags %}
-        <category>{{ tag | xml_escape }}</category>
-        {% endfor %}
-        {% for cat in post.categories %}
-        <category>{{ cat | xml_escape }}</category>
-        {% endfor %}
+        <title>Venue</title>
+        <description>&lt;p&gt;Our wedding and reception will take place at &lt;a href=&quot;https://www.weddingvenue-tn.com/&quot;&gt;The Church On Main&lt;/a&gt; in beautiful downtown Chattanooga, Tennessee.&lt;/p&gt;
+
+&lt;p&gt;Doors open at 4:30. The ceremony begins at 5:00. Free parking is available across the street.&lt;/p&gt;
+
+&lt;style&gt;
+  .venue-map {
+    width: 100%
+  }
+  .map-overlay {
+    background:transparent; 
+    position:relative; 
+    width:100%;
+    height:250px; /* your iframe height */
+    top:250px;  /* your iframe height */
+    margin-top:-250px;  /* your iframe height */
+  }
+&lt;/style&gt;
+
+&lt;div class=&quot;map-overlay&quot; onclick=&quot;style.pointerEvents='none'&quot;&gt;&lt;/div&gt;
+&lt;iframe class=&quot;venue-map&quot; src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.8953045798994!2d-85.30729304905584!3d35.03434898025369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88605dd7bae8a085%3A0x9f3166076b3070a9!2sChurch+On+Main!5e0!3m2!1sen!2sus!4v1495305465468&quot; height=&quot;250&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sat, 20 May 2017 00:00:00 -0500</pubDate>
+        <link>/salterdentonwedding.com/venue/</link>
+        <guid isPermaLink="true">/salterdentonwedding.com/venue/</guid>
+        
+        
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Hotel Information</title>
+        <description>&lt;p&gt;Guests are welcome to stay anywhere, however we have reserved a block of 20 rooms at both &lt;a href=&quot;https://www.ihg.com/staybridge/hotels/us/en/chattanooga/chacs/hoteldetail&quot;&gt;The Staybridge Suites (Chattanooga Downtown Convention Center)&lt;/a&gt; and at the &lt;a href=&quot;http://www.choochoo.com&quot;&gt;Chattanooga Choo Choo Hotel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The block reservations are for Friday and Saturday. Those guests that are arriving on Thursday may still be able to get a room at either hotel for that day, but we were unable to hold rooms before Friday.&lt;/p&gt;
+
+&lt;p&gt;We have read in reviews that the Choo Choo is fun, but a little old-feeling. We chose it because it is within walking distance from The Church On Main. The Staybridge Suites Convention Center is a little farther from the venue (about a 4 minute drive), but seems to offer newer rooms than the Choo Choo, according to the reviews.&lt;/p&gt;
+
+&lt;p&gt;If you’d like to reserve at either of these hotels, you’ll have to call them to get the group rate. The blocks will be released to the general public on September 1 for Staybridge and  September 9 for the Choo Choo.&lt;/p&gt;
+
+&lt;h3 id=&quot;chattanooga-choo-choo&quot;&gt;Chattanooga Choo Choo&lt;/h3&gt;
+&lt;p&gt;phone: 423-266-5000&lt;br /&gt;
+Mention the Group Code: &lt;code&gt;YSAL17&lt;/code&gt;&lt;br /&gt;
+$109 + tax ($128.08 including tax)&lt;/p&gt;
+
+&lt;h3 id=&quot;staybridge-suites&quot;&gt;Staybridge Suites&lt;/h3&gt;
+&lt;p&gt;phone: 423-267-0900&lt;br /&gt;
+Mention Salter Denton Wedding&lt;br /&gt;
+$119 + tax&lt;/p&gt;
+</description>
+        <pubDate>Sat, 20 May 2017 00:00:00 -0500</pubDate>
+        <link>/salterdentonwedding.com/hotel-information/</link>
+        <guid isPermaLink="true">/salterdentonwedding.com/hotel-information/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Honeymoon Registry</title>
+        <description>&lt;p&gt;If you’d like to contribute to our honeymoon experiences, we’ve set up a gift registry at &lt;a href=&quot;https://www.honeyfund.com/wedding/CheersToDonAndPaige&quot;&gt;Honeyfund.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;button&quot; href=&quot;https://www.honeyfund.com/wedding/CheersToDonAndPaige&quot;&gt; Visit Our Registry &lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 20 May 2017 00:00:00 -0500</pubDate>
+        <link>/salterdentonwedding.com/honeymoon-registry/</link>
+        <guid isPermaLink="true">/salterdentonwedding.com/honeymoon-registry/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Announcing the Wedding of Paige Salter and Don Denton</title>
+        <description>&lt;p&gt;This website will be an always up-to-date place to check on details, registries, etc. It’s all on one page, so just keep scrolling.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 26 Feb 2016 00:00:00 -0600</pubDate>
+        <link>/salterdentonwedding.com/announcing-the-wedding/</link>
+        <guid isPermaLink="true">/salterdentonwedding.com/announcing-the-wedding/</guid>
+        
+        
+      </item>
+    
   </channel>
 </rss>

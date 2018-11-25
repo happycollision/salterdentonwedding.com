@@ -1,15 +1,61 @@
----
-layout: default
----
-{% assign all_posts = site.posts | sort: "order" %}
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Paige Salter &amp; Don Denton</title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta property="og:title" content="Paige Salter &amp; Don Denton">
+  <meta property="og:url" content="/salterdentonwedding.com/">
+  <meta property="og:site_name" content="Paige Salter & Don Denton">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="">
+  <meta property="og:type" content="blog">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:title" content="Paige Salter &amp; Don Denton">
+  <meta name="twitter:url" content="/salterdentonwedding.com/">
+  <meta name="twitter:site" content="Paige Salter & Don Denton">
+  <meta name="twitter:creator" content="@">
+  <meta name="twitter:domain" content="">
+  <meta property="twitter:image" content="">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata|Lora|Space+Mono:700">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link rel="stylesheet" href="/salterdentonwedding.com/assets/css/main.css">
+
+  <link rel="alternate" type="application/rss+xml" title="Paige Salter & Don Denton" href="/salterdentonwedding.com/feed.xml">
+  <link rel="canonical" href="/salterdentonwedding.com/">
+
+  
+</head>
+
+
+  <body>
+
+    <main>
+      
 <section class="previews">
   <div>
-    {% for post in all_posts %}
-      <figure class="absolute-bg preview__img" style="background-image: url('{{ post.image }}');"></figure>
-    {% endfor %}
+    
+      <figure class="absolute-bg preview__img" style="background-image: url('/salterdentonwedding.com/images/paige-don-dancing.jpg');"></figure>
+    
+      <figure class="absolute-bg preview__img" style="background-image: url('/salterdentonwedding.com/images/church.jpg');"></figure>
+    
+      <figure class="absolute-bg preview__img" style="background-image: url('/salterdentonwedding.com/images/Engine-13.jpg');"></figure>
+    
+      <figure class="absolute-bg preview__img" style="background-image: url('/salterdentonwedding.com/images/vegas.jpg');"></figure>
+    
     <div class="previews__container">
       <span>September 30, 2017</span>
-      <h1>{{ site.title }}</h1>
+      <h1>Paige Salter & Don Denton</h1>
       <span>Chattanooga, Tennessee</span>
     </div>
   </div>
@@ -24,37 +70,132 @@ layout: default
 
     <div class="tab">
       <ul itemscope itemtype="http://schema.org/Blog">
-        {% for post in all_posts %}
+        
           <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-            <div class="preview__link" href="{{ post.url | prepend: site.baseurl }}" itemprop="url">
-              <!-- <span class="preview__date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span> -->
-              <h2 class="preview__header" itemprop="name">{{ post.title }}</h2>
-              <div class="preview__excerpt post" itemprop="description">{{ post.content }}</div>
-        {% if post.exclude_read_more != null %}
-              <span class="preview__more">Read More</span>
-        {% endif %}
+            <div class="preview__link" href="/salterdentonwedding.com/announcing-the-wedding/" itemprop="url">
+              <!-- <span class="preview__date" itemprop="datePublished" datetime="2016-02-26T00:00:00-06:00">Feb 26, 2016</span> -->
+              <h2 class="preview__header" itemprop="name">Announcing the Wedding of Paige Salter and Don Denton</h2>
+              <div class="preview__excerpt post" itemprop="description"><p>This website will be an always up-to-date place to check on details, registries, etc. It’s all on one page, so just keep scrolling.</p>
+</div>
+        
             </div>
           </li>
-        {% endfor %}
+        
+          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <div class="preview__link" href="/salterdentonwedding.com/venue/" itemprop="url">
+              <!-- <span class="preview__date" itemprop="datePublished" datetime="2017-05-20T00:00:00-05:00">May 20, 2017</span> -->
+              <h2 class="preview__header" itemprop="name">Venue</h2>
+              <div class="preview__excerpt post" itemprop="description"><p>Our wedding and reception will take place at <a href="https://www.weddingvenue-tn.com/">The Church On Main</a> in beautiful downtown Chattanooga, Tennessee.</p>
+
+<p>Doors open at 4:30. The ceremony begins at 5:00. Free parking is available across the street.</p>
+
+<style>
+  .venue-map {
+    width: 100%
+  }
+  .map-overlay {
+    background:transparent; 
+    position:relative; 
+    width:100%;
+    height:250px; /* your iframe height */
+    top:250px;  /* your iframe height */
+    margin-top:-250px;  /* your iframe height */
+  }
+</style>
+
+<div class="map-overlay" onclick="style.pointerEvents='none'"></div>
+<iframe class="venue-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.8953045798994!2d-85.30729304905584!3d35.03434898025369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88605dd7bae8a085%3A0x9f3166076b3070a9!2sChurch+On+Main!5e0!3m2!1sen!2sus!4v1495305465468" height="250" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+</div>
+        
+            </div>
+          </li>
+        
+          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <div class="preview__link" href="/salterdentonwedding.com/hotel-information/" itemprop="url">
+              <!-- <span class="preview__date" itemprop="datePublished" datetime="2017-05-20T00:00:00-05:00">May 20, 2017</span> -->
+              <h2 class="preview__header" itemprop="name">Hotel Information</h2>
+              <div class="preview__excerpt post" itemprop="description"><p>Guests are welcome to stay anywhere, however we have reserved a block of 20 rooms at both <a href="https://www.ihg.com/staybridge/hotels/us/en/chattanooga/chacs/hoteldetail">The Staybridge Suites (Chattanooga Downtown Convention Center)</a> and at the <a href="http://www.choochoo.com">Chattanooga Choo Choo Hotel</a>.</p>
+
+<p>The block reservations are for Friday and Saturday. Those guests that are arriving on Thursday may still be able to get a room at either hotel for that day, but we were unable to hold rooms before Friday.</p>
+
+<p>We have read in reviews that the Choo Choo is fun, but a little old-feeling. We chose it because it is within walking distance from The Church On Main. The Staybridge Suites Convention Center is a little farther from the venue (about a 4 minute drive), but seems to offer newer rooms than the Choo Choo, according to the reviews.</p>
+
+<p>If you’d like to reserve at either of these hotels, you’ll have to call them to get the group rate. The blocks will be released to the general public on September 1 for Staybridge and  September 9 for the Choo Choo.</p>
+
+<h3 id="chattanooga-choo-choo">Chattanooga Choo Choo</h3>
+<p>phone: 423-266-5000<br />
+Mention the Group Code: <code>YSAL17</code><br />
+$109 + tax ($128.08 including tax)</p>
+
+<h3 id="staybridge-suites">Staybridge Suites</h3>
+<p>phone: 423-267-0900<br />
+Mention Salter Denton Wedding<br />
+$119 + tax</p>
+</div>
+        
+            </div>
+          </li>
+        
+          <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+            <div class="preview__link" href="/salterdentonwedding.com/honeymoon-registry/" itemprop="url">
+              <!-- <span class="preview__date" itemprop="datePublished" datetime="2017-05-20T00:00:00-05:00">May 20, 2017</span> -->
+              <h2 class="preview__header" itemprop="name">Honeymoon Registry</h2>
+              <div class="preview__excerpt post" itemprop="description"><p>If you’d like to contribute to our honeymoon experiences, we’ve set up a gift registry at <a href="https://www.honeyfund.com/wedding/CheersToDonAndPaige">Honeyfund.com</a>.</p>
+
+<p><a class="button" href="https://www.honeyfund.com/wedding/CheersToDonAndPaige"> Visit Our Registry </a></p>
+</div>
+        
+            </div>
+          </li>
+        
       </ul>
 
-      {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-          {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
-          {% endif %}
+      
 
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
-          {% endif %}
-        </div>
-      {% endif %}
+      <footer class="section-padding--sm footer">
+  <a class="footer__archive" href="/salterdentonwedding.com/archive/">Archive</a>
+  <ul class="footer__social">
+    <li><a class="fa fa-lg fa-envelope-o" href="mailto:"></a></li>
+    
+      <li><a class="fa fa-lg fa-github" href="" target="_blank"></a></li>
+    
+  </ul>
+</footer>
 
-      {% include archive-link.html %}
     </div>
 
-    {% include categories-tab.html %}
+    <div class="tab">
+  <ul class="cards">
+    
+    
+
+    
+  </ul>
+
+  <footer class="section-padding--sm footer">
+  <a class="footer__archive" href="/salterdentonwedding.com/archive/">Archive</a>
+  <ul class="footer__social">
+    <li><a class="fa fa-lg fa-envelope-o" href="mailto:"></a></li>
+    
+      <li><a class="fa fa-lg fa-github" href="" target="_blank"></a></li>
+    
+  </ul>
+</footer>
+
+</div>
+
 
   </div>
 
 </section>
+
+    </main>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.0.0/rellax.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script type="text/javascript" src="/salterdentonwedding.com/assets/js/app.js"></script>
+
+
+  </body>
+
+</html>
