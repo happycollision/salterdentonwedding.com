@@ -2,7 +2,7 @@
 layout: post
 # title: "Announcing the Wedding of Paige Salter and Don Denton"
 description:
-image: https://static.wixstatic.com/media/ca653f_066855087a994d8187a2744a5892c697.jpg
+image: /salterdentonwedding.com/images/church.jpg
 order: 2
 ---
 

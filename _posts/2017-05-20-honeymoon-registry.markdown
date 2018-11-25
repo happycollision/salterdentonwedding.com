@@ -2,7 +2,7 @@
 layout: post
 # title: "Announcing the Wedding of Paige Salter and Don Denton"
 description:
-image: http://www.theplunge.com/images/las_vega.jpg
+image: /salterdentonwedding.com/images/vegas.jpg
 order: 1000
 ---
 

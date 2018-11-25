@@ -2,7 +2,7 @@
 layout: post
 # title: "Announcing the Wedding of Paige Salter and Don Denton"
 description:
-image: http://choochoo.com/application/files/1514/5218/1073/Engine-13.jpg
+image: /salterdentonwedding.com/images/Engine-13.jpg
 order: 3
 ---
 
